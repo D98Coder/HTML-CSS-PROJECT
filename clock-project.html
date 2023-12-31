@@ -27,9 +27,7 @@
         let sec = document.getElementById("sec");
 
         var id = setInterval(RitesTime, 1000)
-        // setTimeout(() => {
-        //     clearInterval(id)
-        // }, 5000)
+        
 
         function RitesTime() {
 
@@ -40,10 +38,6 @@
             sec.innerHTML = (Time.getSeconds() < 10 ? "0" : "") + Time.getSeconds();
 
         }
-
-
-
-
     </script>
 </body>
 
